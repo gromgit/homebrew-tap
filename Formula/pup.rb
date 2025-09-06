@@ -1,8 +1,8 @@
 class Pup < Formula
   desc "Parsing HTML at the command-line"
   homepage "https://github.com/gromgit/pup"
-  url "https://github.com/gromgit/pup/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "939de10adb673381074e5210994b83e024905a232217380a162152aac534df67"
+  url "https://github.com/gromgit/pup/archive/refs/tags/v0.4.2.tar.gz"
+  sha256 "cb36ca9a971288100f287eb66f47de2033f1de7e9ff81cefc5a78f532c8b250d"
   license "MIT"
 
   bottle do
