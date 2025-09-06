@@ -7,9 +7,10 @@ class Pup < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/gromgit/tap"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "52e62d65620d080745bc3ea1e9b7d27504b2f16ca0eede0efc4f29555799efab"
-    sha256 cellar: :any_skip_relocation, ventura:       "063658a04da435c2ce4d34d6bfb80646bdd59e1dab1fd8558cd402f83bd76b4a"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "e495f69dbabb037fe7d751d4140dc656e38a881abf922371be1dd0fe5035bc3e"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "603de58d433c4651e1352ba73edb014f2a7b0c216c5c9908b65d03bccb954b87"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "96743105b35044604857599ad1690ec544aebf83db4452e89e7b62cde739c016"
+    sha256 cellar: :any_skip_relocation, ventura:       "93e93b40251dc9c7b77f37deeea1d48426e2b07bdb241f233d0f739a5034bb4b"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "f4c801646123c6704b23f9d8736626dedcca146fd5d86df9d696f70e4f4637bf"
   end
 
   depends_on "go" => :build
