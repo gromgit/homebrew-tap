@@ -1,8 +1,8 @@
 class Jocalsend < Formula
   desc "TUI LocalSend implementation"
   homepage "https://git.kittencollective.com/nebkor/joecalsend"
-  url "https://git.kittencollective.com/nebkor/joecalsend/archive/1.61803398.tar.gz"
-  sha256 "720909cf50f599f8b0144144b2d8a68b1c555f5eb668f224b81a547e84767221"
+  url "https://git.kittencollective.com/nebkor/joecalsend/archive/1.618033988.tar.gz"
+  sha256 "0a3050d79ff143af06188cb68da93fa431e4f2447714a378a801b79304f03b93"
   license :cannot_represent
 
   livecheck do
