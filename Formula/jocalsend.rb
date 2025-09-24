@@ -11,10 +11,9 @@ class Jocalsend < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/gromgit/tap"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "3369d81c01e430f72e3249b0e8581fd889e64ec79ea352e7a3ca18210e2eb97a"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "e9a27fa749303c6f71b3bad710cde5ab88ecca2cd4921ea32316f1ab7aade753"
-    sha256 cellar: :any_skip_relocation, ventura:       "1de30fb9a7ede1d0f050588ea84313acb91b29b438b07164823fa6f7ecdae37a"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "8a2d8f7f4b8576a4305aaadd19fe52b62e4e57f2587b371a84878d3aaeebe997"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "8dd093f59b3c4c9cd9c0db569639be2c68e8d37e9c51de2b9b8f5a87e3c62334"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "7ec433fef7ea4209973641f924d2d18d5a76e96ec2e3b0b2957386729a292d9f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "c30eb68937f68ae2697254f03d43b390471bf74396d2ee5e5ed2409caf172c24"
   end
 
   depends_on "pkgconf" => :build
