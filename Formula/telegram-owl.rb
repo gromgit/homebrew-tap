@@ -7,9 +7,9 @@ class TelegramOwl < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/gromgit/tap"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "5fe4e6bf4103d7d0af0259bbe80b5e4f9ef0003d9017333da820d5af6a2df7ff"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "0b2b47ff4ef70ab3634c19ae166d3f351baedb6b1f874f776d15c5bb74e4b358"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "6e13db8a7c93902f294e0ab88ae0e1522dd4a7243bda7c21196e55696f62ec9b"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "852807482821b5e68a7cf46f1887e3c575f45666c7c01747cab3659bdecab113"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "691dd06f7c84340f5bbc32002f58d93726830952eb4848d0564837d1206b6cb9"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "6cd2311c3c896da9eed122980c6a296f177822fc9272fb2a6f531d9555c4f26c"
   end
 
   depends_on "go" => :build
