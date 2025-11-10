@@ -1,8 +1,8 @@
 class Treemd < Formula
   desc "TUI/CLI markdown viewer with tree-based structural navigation"
   homepage "https://github.com/Epistates/treemd"
-  url "https://github.com/Epistates/treemd/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "7ea812e2fa692faddd04eaf3d77fa71fea1a252374359fe9b1a88b56f075682f"
+  url "https://github.com/Epistates/treemd/archive/refs/tags/v0.1.7.tar.gz"
+  sha256 "6f912a565ad095c3f99fced6330b522839bdb6f3e232e71b19d729b6280781b0"
   license "MIT"
 
   bottle do
