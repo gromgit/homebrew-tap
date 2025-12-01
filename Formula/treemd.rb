@@ -7,10 +7,10 @@ class Treemd < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/gromgit/tap"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "31c6746b7a802af2775c0b0cf963673bd694e9aa857a78bb81f754237f1dc8c6"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "e0c1c3b47d305177dda4d5ce51cf3bce0b4bd2952a1a703fb951fb874aafd92f"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "ede0b6b18da3500557bba4d677f2e29a4ec7c746ed97d28daddc909fcc3f0430"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "8db4fa7e473025f02dd346d3d35a8831a92d5bfcd415e19ad84255e22748f9f2"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "095e0e328c7db5069d1556d24a0e8fec2dfc0787c5ad1002786af4c0948f3ff5"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "c48441f552c5289a1bab58280d50a9a157fcd332ff18fefc850ab5bbaf03ad99"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "9fa4167969cd8bd6631ae327de72cccf18b7ccc3de61ff32d140b8da17aca678"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "68816eff13983f350d7b35663eb8ee23ec2cf7f2530bdafa40142601e53045e2"
   end
 
   depends_on "rust" => :build
