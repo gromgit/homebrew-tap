@@ -1,8 +1,8 @@
 class TelegramOwl < Formula
   desc "Lightweight Telegram CLI utility"
   homepage "https://github.com/beeyev/telegram-owl"
-  url "https://github.com/beeyev/telegram-owl/archive/refs/tags/v1.4.0.tar.gz"
-  sha256 "e771b2cc34e739b968da99db576dc157214c075fcd7580cbfc1ba193fa9c2c02"
+  url "https://github.com/beeyev/telegram-owl/archive/refs/tags/v1.5.0.tar.gz"
+  sha256 "f8f6f1250d2c826d95cdfdb39611ecbabe73a5cdd993944ac6fb0d8c8045fdee"
   license "MIT"
 
   bottle do
