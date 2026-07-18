@@ -3,6 +3,9 @@ name: brew pr-pull
 # LAST UPDATED: 2026-Jul-18
 
 on:
+  pull_request_target:
+    types:
+      - labeled
   workflow_dispatch:
     inputs:
       pull_request:
