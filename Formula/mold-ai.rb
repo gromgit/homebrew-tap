@@ -1,8 +1,8 @@
 class MoldAi < Formula
   desc "Local AI image generation CLI"
   homepage "https://utensils.github.io/mold/"
-  url "https://github.com/utensils/mold/archive/refs/tags/v0.5.1.tar.gz"
-  sha256 "0dfa2f9c5a7b84c6852cd9c3b6aa051e02072e921cb596952eac4433f3b06723"
+  url "https://github.com/utensils/mold/archive/refs/tags/v0.18.0.tar.gz"
+  sha256 "51392a735f5a91043d384a786b3d9efdc0feb1ae328b745500817c219b53f567"
   license "MIT"
 
   bottle do
@@ -14,6 +14,10 @@ class MoldAi < Formula
   end
 
   depends_on "rust" => :build
+
+  on_linux do
+    fails_with :clang
+  end
 
   def install
     args = []
