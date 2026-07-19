@@ -4,6 +4,7 @@ class TelegramOwl < Formula
   url "https://github.com/beeyev/telegram-owl/archive/refs/tags/v1.5.0.tar.gz"
   sha256 "f8f6f1250d2c826d95cdfdb39611ecbabe73a5cdd993944ac6fb0d8c8045fdee"
   license "MIT"
+  revision 1
 
   bottle do
     root_url "https://ghcr.io/v2/gromgit/tap"
