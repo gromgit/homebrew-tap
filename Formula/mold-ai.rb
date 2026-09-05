@@ -1,8 +1,8 @@
 class MoldAi < Formula
   desc "Local AI image generation CLI"
   homepage "https://utensils.github.io/mold/"
-  url "https://github.com/utensils/mold/archive/refs/tags/v0.26.0.tar.gz"
-  sha256 "88cf655feedd4804398e59a1eced7da2bc09fd58b00ca6fde0b5b1d5a11fa777"
+  url "https://github.com/utensils/mold/archive/refs/tags/v0.27.1.tar.gz"
+  sha256 "8ab525705095186738028a37d14e459e6acb26af6f5b9be1b8360df166c3604f"
   license "MIT"
 
   bottle do
