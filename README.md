@@ -31,7 +31,7 @@ cask "gromgit/tap/<cask>"
 **NOTE:** Most (if not all) of these casks have NOT been notarized by Apple, so you'll have to run:
 
 ```
-xattr -cr /Applications/<cask_app>.app
+xattr -dr com.apple.quarantine /Applications/<cask_app>.app
 ```
 
 after installation, to remove the macOS quarantine tag from the app before running.
