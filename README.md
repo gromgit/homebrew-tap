@@ -40,7 +40,7 @@ after installation, to remove the macOS quarantine tag from the app before runni
 
 Because you would then hold **ME** responsible if the upstream app is quietly subverted, since I took away your last opportunity to say "hang on, something's not quite right".
 
-![](https://github.com/gromgit/homebrew-tap/images/no-time.gif)
+![](./images/no-time.gif)
 
 ## Documentation
 
