@@ -7,9 +7,9 @@ class MoldAi < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/gromgit/tap"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "aab46ae961e2f13aaa3ff32db98025800cde952225514110480977b2fc8ec69a"
-    sha256 cellar: :any,                 arm64_linux:  "d23c7bc904f952fb991ba55c9c5b530b3d34bd814f627335a4cda517681f8c16"
-    sha256 cellar: :any,                 x86_64_linux: "b883ac0a90aff966e89fdf6a98e7d9b61ed1bf5d90cd60c210a798a525b131b0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "d7d6a8ab36405bc4202877c1e3875278c0fd87df68176612c84dab9a910ed947"
+    sha256 cellar: :any,                 arm64_linux:  "e73e0794f1b912c8b5faa7f2e86003581b7fb75e620c704976df23483514c953"
+    sha256 cellar: :any,                 x86_64_linux: "30c361ff4abf5c4d81e19d924d924538b775d61a56142cd30f38f99305478d2b"
   end
 
   depends_on "lld" => :build
